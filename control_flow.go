@@ -8,9 +8,9 @@ func foo() {
 
 func main() {
 
-	fmt.Println("In main")
+	n,e := fmt.Println("In main")
 	foo()
-
+	fmt.Println(n,e)
 	for i := 0; i <= 10; i++ { //loop
 		if i%2 == 0 { //conditional
 			fmt.Println(i)
